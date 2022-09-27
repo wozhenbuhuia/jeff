@@ -1,0 +1,62 @@
+[
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "geosite:geolocation-!cn",
+      "github.com",
+      "githubassets.com",
+      "githubusercontent.com",
+      "store.steampowered.com"
+    ],
+    "protocol": []
+  },
+  {
+    "type": "field",
+    "outboundTag": "block",
+    "domain": [
+      "mousegesturesapi.com",
+      "cf-se.com",
+      "geosite:category-ads-all",
+      "googleads.g.doubleclick.net",
+      "adservice.google.com"
+    ]
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn",
+    ],
+    "domain": [
+      "bitwarden.com",
+      "bitwarden.net",
+      "gravatar.com",
+      "gstatic.com",
+      "letsencrypt.org",
+      "adblockplus.org",
+      "safesugar.net",    
+      "geosite:private",
+      "geosite:cn",
+      "geosite:adobe",
+      "geosite:adobe-activation",
+      "geosite:microsoft",
+      "geosite:msn",
+      "geosite:apple",
+      "geosite:private",
+      "geosite:apple-cn",
+      "geosite:google-cn",
+      "geosite:tld-cn",
+      "geosite:category-games@cn"
+    ],
+    "protocol": []
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "outboundTag": "proxy"
+  }
+]

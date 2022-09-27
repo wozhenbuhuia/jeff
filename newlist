@@ -49,7 +49,7 @@
       "geosite:private",
       "geosite:apple-cn",
       "geosite:tld-cn",
-      "geosite:category-games@cn"
+      "geosite:category-games@cn",
       "szutek.com"
     ],
     "protocol": []

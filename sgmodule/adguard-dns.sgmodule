@@ -1,0 +1,7 @@
+#!name=DNS-Adguard
+#!desc=dns加密
+
+[General]
+
+
+encrypted-dns-server = https://567a3616.d.adguard-dns.com/dns-query
